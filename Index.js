@@ -4,7 +4,6 @@ const bodyParser = require('body-parser');
 const app = express();
 const PORT = process.env.PORT || 3000; // Set port number
 
-
 // Mock data
 let categories = ['funnyJoke', 'lameJoke'];
 let funnyJoke = [
